@@ -1,0 +1,10 @@
+{
+  "displayName" : "Installed drivers",
+  "author" : ["Stephane PAUTREL"],
+  "contributor" : [],
+  "supportedAgent" : ["Windows"],
+  "description" : {
+    "fr" : "Remonte la liste des pilotes installés",
+    "en" : "Retrieve list of installed drivers"
+  }
+}
