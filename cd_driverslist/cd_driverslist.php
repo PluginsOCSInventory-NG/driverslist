@@ -18,7 +18,7 @@ if(AJAX){
 else{
 	$ajax=false;
 }
-	print_item_header("Pilotes installés");
+	print_item_header("Installed drivers");
 
 	if (!isset($protectedPost['SHOW'])){
 		$protectedPost['SHOW'] = 'NOSHOW';
@@ -30,16 +30,16 @@ else{
 	$tab_options['table_name']=$table_name;
 	echo open_form($form_name);
 	$list_fields = array(
-		'Classe' => 'CLASS',
+		'Class' => 'CLASS',
 		'Description' => 'DESCRIPTION',
-		'Nom' => 'NAME',
-		'Fabricant' => 'PROVIDERNAME',
+		'Name' => 'NAME',
+		'Provider' => 'PROVIDERNAME',
 		'Version' => 'VERSION',
 		'Date' => 'DATE',
-		'Fichier INF' => 'INFNAME',
-		'Surnom' => 'FRIENDLYNAME',
-		'Pilote signé' => 'SIGNED',
-		'Identifiant périphérique' => 'DEVICEID'
+		'INF file' => 'INFNAME',
+		'Friendly name' => 'FRIENDLYNAME',
+		'Signed driver' => 'SIGNED',
+		'Device ID' => 'DEVICEID'
 	);
 	$list_col_cant_del=$list_fields;
 	$default_fields= $list_fields;
