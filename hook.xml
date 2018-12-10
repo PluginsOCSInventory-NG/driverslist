@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hookstore>
+    <hook type="lang">
+        <value>en_GB</value>
+        <value>fr_FR</value>
+    </hook>
+    <hook type="cdentry">
+        <identifier>cd_driverslist</identifier>
+        <translation>16000</translation>
+        <category>hardware</category>
+        <available>driverslist</available>
+    </hook>
+</hookstore>
